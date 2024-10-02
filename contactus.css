@@ -1,0 +1,169 @@
+*{
+  margin:0 auto;
+  padding:0 ;
+  box-sizing: border-box;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  background-color: #0077ff;
+    width: 100%;
+  /*padding: 20px;*/
+}
+
+.main {
+  padding: 20px;
+  background-color: #0077ff;
+  color: rgb(0, 0, 0);
+  transition: color 0.3s easy;
+  font-size: 20px;
+  text-transform: uppercase;
+  
+}
+
+.main:hover {
+  background-color:#000000;
+  color: #0077ff
+}
+.header:hover{
+  color: #696c70;
+  
+
+}
+
+
+.table{
+  box-shadow: 3px 1px 20px -2px #0d0909;
+  background-color: #edeff1;
+  font-size: 220px;
+  text-align: center;
+  margin:15px;
+  font-family: 'Serif';
+  color: rgb(0, 0, 0);
+  padding: -100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.form{
+    font-size: 40px;
+    justify-content: center;
+}
+.contact{
+    font-size: 140px;
+    justify-content: center;
+}
+.space{
+  padding: 100px;
+}
+
+.container{
+  width: 10px;
+  margin-top:400px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+    background-color: #141414;
+    border-top-width: 1px;
+    height:300px;
+    text-align: start;
+    padding-bottom: 10px;
+    border-top-style: solid;
+    border-top-color: #f3f3f3;
+    color: rgba(255, 255, 255, 0.6);
+}
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.header .main a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.table {
+    padding: 20px;
+}
+
+.form {
+    margin: 20px 0;
+}
+
+
+@media (max-width: 1200px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .contact {
+    font-size: 2.5rem; /* Reduced for larger screens */
+  }
+
+  .form {
+    font-size: 1.3rem; /* Slightly smaller form font */
+  }
+
+  .table {
+    font-size: 1.3rem; /* Smaller table font */
+    padding: 15px; /* Adjust padding */
+  }
+}
+
+@media (max-width: 800px) {
+  .main {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .contact {
+    font-size: 2rem; /* Further reduced for medium screens */
+  }
+
+  .form {
+    font-size: 1.2rem; /* Further reduced for medium screens */
+  }
+
+  .space {
+    padding: 50px; /* Reduce space on smaller screens */
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    font-size: 14px; /* Smaller font for mobile */
+    padding: 8px;
+  }
+
+  .contact {
+    font-size: 1.5rem; /* Smaller for mobile */
+  }
+
+  .form {
+    font-size: 1rem; /* Smaller form font */
+  }
+
+  .table {
+    font-size: 1rem; /* Smallest table font */
+    padding: 10px; /* Reduce padding */
+  }
+
+  .space {
+    padding: 20px; /* Further reduce space */
+  }
+}
